@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body class="flex">
+
+    <header class="hero">
+
+        <div class="hero__wave block"></div>
+
+        <nav class="nav flex margin--auto container">
+            <figure class="nav__logo">
+                <img src="images/logo.svg" alt="logo" class="nav__img w-100 block">
+            </figure>
+
+            <div class="nav__links flex">
+                <a href="#features" class="nav__link">Features</a>
+                <a href="#testimonials" class="nav__link">Team</a>
+                <a href="#signIn" class="nav__link">Sign In</a>
+            </div>
+        </nav>
+
+        <section class="intro__details flex">
+            <img src="images/illustration-intro.png" alt="Intro img" class="intro__img margin--auto w-100 block">
+
+            <h1 class="intro__title">All your files in one secure location, accessible anywhere.</h1>
+
+            <p class="intro__paragraph">Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
+
+            <div class="cta">
+                <a href="#" class="intro__link">Get Started</a>
+            </div>
+        </section>
+
+    </header>
+
+    <main class="main">
+        <section class="features container" id="features">
+
+            <div class="features__details margin--auto flex">
+                <figure class="features__picture">
+                    <img src="images/icon-access-anywhere.svg" alt="icon access" class="feature__img w-100 block">
+                </figure>
+
+                <div class="features__texts">
+                    <h2 class="features__title">Access your files, anywhere</h2>
+                    <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+                </div>
+            </div>
+
+            <div class="features__details margin--auto flex">
+                <figure class="features__picture">
+                    <img src="images/icon-security.svg" alt="security icon" class="feature__img w-100 block">
+                </figure>
+
+                <div class="features__texts">
+                    <h2 class="features__title">Security you can trust</h2>
+                    <p>2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+                </div>
+            </div>
+
+            <div class="features__details margin--auto flex">
+                <figure class="features__picture">
+                    <img src="images/icon-collaboration.svg" alt="collaboration icon" class="feature__img w-100 block">
+                </figure>
+
+                <div class="features__texts">
+                    <h2 class="features__title">Real-time collaboration</h2>
+                    <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+                </div>
+            </div>
+
+            <div class="features__details margin--auto flex">
+                <figure class="features__picture">
+                    <img src="images/icon-any-file.svg" alt="files icon" class="feature__img w-100 block">
+                </figure>
+
+                <div class="features__texts">
+                    <h2 class="features__title">Store any type of file</h2>
+                    <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="main__middle margin--auto container flex">
+
+            <figure class="main__picture margin--auto">
+                <img src="images/illustration-stay-productive.png" alt="productivity image" class="main__img w-100 block">
+            </figure>
+
+            <div class="main__texts">
+                <h2 class="main__title">Stay productive, wherever you are</h2>
+                <p class="main__paragraph">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+                <p class="main__paragraph">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+
+
+                <div class="main__button">
+
+                    <a href="#" class="main__link flex">
+                        <p class="main__link--text">See how Fylo works</p>
+                        <img src="images/icon-arrow.svg" alt="arrow" class="main__icon w-100 block">
+                        <img src="images/arrow_hover.svg" alt="arrow hover" class="main__icon main__icon--hover w-100 block">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <section class="testimonials container flex" id="testimonials">
+
+            <div class="testimonial margin--auto">
+
+                <p class="testimonial__paragraph">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+
+                <div class="testimonial__info flex">
+                    <img src="images/profile-1.jpg" alt="CEO & Founder picture" class="testimonial__avatar block">
+
+                    <div class="testimonial--flex">
+                        <h3 class="testimonial__name">Satish Patel</h3>
+                        <p class="testimonial__role">Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial margin--auto">
+                <p class="testimonial__paragraph">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+
+                <div class="testimonial__info flex">
+                    <img src="images/profile-2.jpg" alt="CEO & Founder picture" class="testimonial__avatar block">
+
+                    <div class="testimonial--flex">
+                        <h3 class="testimonial__name">Bruce McKenzie</h3>
+                        <p class="testimonial__role">Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial margin--auto">
+                <p class="testimonial__paragraph">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+
+                <div class="testimonial__info flex">
+                    <img src="images/profile-3.jpg" alt="CEO & Founder picture" class="testimonial__avatar block">
+
+                    <div class="testimonial--flex">
+                        <h3 class="testimonial__name">Iva Boyd</h3>
+                        <p class="testimonial__role">Founder & CEO, Huddle</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="signIn margin--auto w-90" id="signIn">
+            <h2 class="signIn__title">Get early access today</h2>
+            <p class="signIn__paragraph">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+
+            <form action="#" class="form">
+                <input type="email" name="email" id="email" class="form__input" placeholder="email@example.com">
+                <input type="submit" class="cta cta--form" value="Get Started For Free">
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__container margin--auto flex">
+
+            <figure class="footer__picture">
+                <img src="images/logo.svg" alt="logo footer" class="footer__img w-100 block">
+            </figure>
+
+            <div class="footer__info flex footer__contact--location">
+                <img src="images/icon-location.svg" alt="location icon" class="footer__icon w-100 block">
+                <p class="footer__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+
+            <div class="footer__contact--position">
+                <div class="footer__info footer__contact flex">
+                    <img src="images/icon-phone.svg" alt="phone icon" class="footer__icon w-100 block">
+                </div>
+
+                <div class="footer__info footer__contact--email flex">
+                    <img src="images/icon-email.svg" alt="email icon" class="footer__icon footer__icon--email w-100 block">
+                </div>
+            </div>
+
+            <div class="footer__links flex">
+                <a href="#" class="footer__link">About Us</a>
+                <a href="#" class="footer__link">Jobs</a>
+                <a href="#" class="footer__link">Press</a>
+                <a href="#" class="footer__link">Blog</a>
+            </div>
+
+            <div class="footer__links footer__links--position flex">
+                <a href="#" class="footer__link">Contact Us</a>
+                <a href="#" class="footer__link">Terms</a>
+                <a href="#" class="footer__link">Privacy</a>
+            </div>
+
+            <div class="social flex">
+                <a href="http://www.facebook.com" target="_blank">
+                    <figure class="social__icon">
+                        <img src="images/facebook.svg" class="w-100" alt="Facebook Icon">
+                    </figure>
+                </a>
+
+                <a href="http://www.twitter.com" target="_blank">
+                    <figure class="social__icon">
+                        <img src="images/twitter.svg" class="w-100" alt="Facebook Icon">
+                    </figure>
+                </a>
+
+                <a href="http://www.instagram.com" target="_blank">
+                    <figure class="social__icon">
+                        <img src="images/instagram.svg" class="w-100" alt="Facebook Icon">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="attribution flex">
+                <p>
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                </p>
+
+                <p>
+                    Coded by <a href="https://github.com/BricFer" target="_blank">Briceida Fernandez</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<!-- <body>
+  
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html> -->
